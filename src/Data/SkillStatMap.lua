@@ -609,6 +609,9 @@ return {
 ["critical_strike_chance_+%_vs_blinded_enemies"] = {
 	mod("CritChance", "INC", nil, 0, 0, { type = "ActorCondition", actor = "enemy", var = "Blinded"})
 },
+["critical_strike_chance_+%_vs_bleeding_enemies"] = {
+	mod("CritChance", "INC", nil, 0, 0, { type = "ActorCondition", actor = "enemy", var = "Bleeding"})
+},
 ["no_critical_strike_multiplier"] = {
 	flag("NoCritMultiplier"),
 },
